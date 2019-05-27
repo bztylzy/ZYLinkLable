@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0F30A0229B81DC00DEB3EC /* ZYLinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0F309F229B81DC00DEB3EC /* ZYLinkLabel.m */; };
+		BD20551622992BE8004A1DA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20551522992BE8004A1DA2 /* AppDelegate.m */; };
+		BD20551922992BE8004A1DA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20551822992BE8004A1DA2 /* ViewController.m */; };
+		BD20551C22992BE8004A1DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20551A22992BE8004A1DA2 /* Main.storyboard */; };
+		BD20551E22992BEA004A1DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD20551D22992BEA004A1DA2 /* Assets.xcassets */; };
+		BD20552122992BEA004A1DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20551F22992BEA004A1DA2 /* LaunchScreen.storyboard */; };
+		BD20552422992BEA004A1DA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20552322992BEA004A1DA2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD0F309E229B81DC00DEB3EC /* ZYLinkLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYLinkLabel.h; sourceTree = "<group>"; };
+		BD0F309F229B81DC00DEB3EC /* ZYLinkLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLinkLabel.m; sourceTree = "<group>"; };
+		BD20551122992BE8004A1DA2 /* 可以点击的label.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "可以点击的label.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD20551422992BE8004A1DA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD20551522992BE8004A1DA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD20551722992BE8004A1DA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD20551822992BE8004A1DA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD20551B22992BE8004A1DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD20551D22992BEA004A1DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD20552022992BEA004A1DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD20552222992BEA004A1DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD20552322992BEA004A1DA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD20550E22992BE8004A1DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD20550822992BE8004A1DA2 = {
+			isa = PBXGroup;
+			children = (
+				BD20551322992BE8004A1DA2 /* 可以点击的label */,
+				BD20551222992BE8004A1DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD20551222992BE8004A1DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD20551122992BE8004A1DA2 /* 可以点击的label.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD20551322992BE8004A1DA2 /* 可以点击的label */ = {
+			isa = PBXGroup;
+			children = (
+				BD20551422992BE8004A1DA2 /* AppDelegate.h */,
+				BD20551522992BE8004A1DA2 /* AppDelegate.m */,
+				BD20551722992BE8004A1DA2 /* ViewController.h */,
+				BD20551822992BE8004A1DA2 /* ViewController.m */,
+				BD0F309E229B81DC00DEB3EC /* ZYLinkLabel.h */,
+				BD0F309F229B81DC00DEB3EC /* ZYLinkLabel.m */,
+				BD20551A22992BE8004A1DA2 /* Main.storyboard */,
+				BD20551D22992BEA004A1DA2 /* Assets.xcassets */,
+				BD20551F22992BEA004A1DA2 /* LaunchScreen.storyboard */,
+				BD20552222992BEA004A1DA2 /* Info.plist */,
+				BD20552322992BEA004A1DA2 /* main.m */,
+			);
+			path = "可以点击的label";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD20551022992BE8004A1DA2 /* 可以点击的label */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD20552722992BEA004A1DA2 /* Build configuration list for PBXNativeTarget "可以点击的label" */;
+			buildPhases = (
+				BD20550D22992BE8004A1DA2 /* Sources */,
+				BD20550E22992BE8004A1DA2 /* Frameworks */,
+				BD20550F22992BE8004A1DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "可以点击的label";
+			productName = "可以点击的label";
+			productReference = BD20551122992BE8004A1DA2 /* 可以点击的label.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD20550922992BE8004A1DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lizongyao;
+				TargetAttributes = {
+					BD20551022992BE8004A1DA2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BD20550C22992BE8004A1DA2 /* Build configuration list for PBXProject "可以点击的label" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD20550822992BE8004A1DA2;
+			productRefGroup = BD20551222992BE8004A1DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD20551022992BE8004A1DA2 /* 可以点击的label */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD20550F22992BE8004A1DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20552122992BEA004A1DA2 /* LaunchScreen.storyboard in Resources */,
+				BD20551E22992BEA004A1DA2 /* Assets.xcassets in Resources */,
+				BD20551C22992BE8004A1DA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD20550D22992BE8004A1DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20551922992BE8004A1DA2 /* ViewController.m in Sources */,
+				BD20552422992BEA004A1DA2 /* main.m in Sources */,
+				BD20551622992BE8004A1DA2 /* AppDelegate.m in Sources */,
+				BD0F30A0229B81DC00DEB3EC /* ZYLinkLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD20551A22992BE8004A1DA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD20551B22992BE8004A1DA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD20551F22992BEA004A1DA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD20552022992BEA004A1DA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD20552522992BEA004A1DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD20552622992BEA004A1DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD20552822992BEA004A1DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCH8ZYRK6C;
+				INFOPLIST_FILE = "可以点击的label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lizongyao.-----label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD20552922992BEA004A1DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCH8ZYRK6C;
+				INFOPLIST_FILE = "可以点击的label/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lizongyao.-----label";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD20550C22992BE8004A1DA2 /* Build configuration list for PBXProject "可以点击的label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD20552522992BEA004A1DA2 /* Debug */,
+				BD20552622992BEA004A1DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD20552722992BEA004A1DA2 /* Build configuration list for PBXNativeTarget "可以点击的label" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD20552822992BEA004A1DA2 /* Debug */,
+				BD20552922992BEA004A1DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD20550922992BE8004A1DA2 /* Project object */;
+}
